@@ -7,6 +7,10 @@
 - Alja Eremic (89231124)
 - Filip Trajkoski (89231028)
 
+#### *Project managers*
+- Alja Eremic (89231124)
+- Filip Trajkoski (89231028)
+
 #### *Deadline: 01.08.2026*
 #### *Date of order:*
 #### *Github:* 
@@ -17,7 +21,10 @@
 ## Client
 Project Jorgen is developed for personal use; henceforth the main clients are the developers.
 
-## Problem definiton, purpose and objectives
+## Problem definiton and end goal
+<!-- change 'end goal' if you want
+    don't know what to write there instead
+ -->
 
 In the informational day and age of today, a single person is expected to have gigabytes of personal data such as images, documents, movies, projects, music etc…Furthermore, efficient management in the form of easy remote access and manipulation of those resources is vital. 
 
@@ -25,18 +32,38 @@ Most people outsource this cumbersome job of storing and managing their data to 
 
 The goal of project Jorgan is to develop a server that can cover chosen functionalities of Google Cloud infrastructure, assess and compare its cost all while keeping the data at the hands of users. 
 
+## Resources
+yap yap
+
+## Objectives and milestone
+<!-- todo - we gotta have like specific objectives  -->
+
+<!-- use this for tables if you want
+https://www.tablesgenerator.com/markdown_tables
+ -->
+
+| Goal         | Deadline     |
+| :---         |   :---:   |
+| Setup Server |    *01.04.2026* |
+| Textual UI   |    *01.05.2026* |
+| Deploy Textual UI | *01.07.2026*|
+| Graphical UI |    *01.08.2026* |
+| Deploy Graphical UI |    *01.10.2026* |
+
+<!-- what do we put here? -->
+
 ## Techniques and Technologies used
 - Agile
 - Web App - express, react
 
 ## Description of finished product
+<!-- todo 
+do we put
+  -->
 
-## Resources
-yap yap
+List Google cloud services?
 
-## Milestones
-goals with dates
 
-## Project managers
-- Alja Eremic (89231124)
-- Filip Trajkoski (89231028)
+
+
+
