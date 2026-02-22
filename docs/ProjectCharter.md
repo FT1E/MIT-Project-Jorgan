@@ -37,22 +37,15 @@ Financial goal of this project is to maximize set up cost and minimize reocuring
 ## Objectives and milestone
 <!-- todo - we gotta have like specific objectives  -->
 
-1. Select suitable hardware solutions.
-    - deadline: 02.03.2026
-2. Select suitable open source software solutions. 
-    - deadline: 02.03.2026
-3. Server is operational and can be accessed from LAN.
-    - deadline: 09.03.2026
-4. Server is operational and can be accessed from any device from a browser.
-    - deadline: 23.03.2026
-5. Server can be manipulated remotely via SSH-like tool.
-    - deadline: 30.03.2026
-6. Server can be used for storing and viewing images and has a satisfactory UI designated for it.
-    - deadline: 30.04.2026
-7. Server can host up to 3 (low low trafic) websites.
-    - deadline: 21.05.2026
-8. Server should have up time greater then 18h per day.
-9. Total cost of the project must not exceed 700€.
+1. Select suitable hardware solutions. Deadline: 02.03.2026
+2. Select suitable open source software solutions. Deadline: 02.03.2026
+3. Server is operational and can be accessed from LAN. Deadline: 09.03.2026
+4. Server is operational and can be accessed from any device from a browser. Deadline: 23.03.2026
+5. Server can be manipulated remotely via SSH-like tool. Deadline: 30.03.2026
+6. Server can be used for storing and viewing images and has a satisfactory UI designated for it. Deadline: 30.04.2026
+7. Server can host up to 3 (low low trafic) websites. Deadline: 21.05.2026
+8. Server should have up time greater then 18h per day. 
+9. Total cost of the project must not exceed 700€. 
 10. Server maintenance cost is minimized.
 
 
@@ -64,8 +57,7 @@ Financial goal of this project is to maximize set up cost and minimize reocuring
 <!-- todo 
 do we put
   -->
-
-List Google cloud services?
+Project jorgan can rival basic services of Google Cloud.
 
 
 
