@@ -12,8 +12,8 @@
 - Filip Trajkoski (89231028)
 
 #### *Deadline: 01.08.2026*
-#### *Date of order:*
-#### *Github:* 
+#### *Date of order: 16.02.2026*
+#### *Github repository:* 
 [Click here](https://github.com/FT1E/MIT-Project-Jorgan)
 <br> or <br>
 [https://github.com/FT1E/MIT-Project-Jorgan](https://github.com/FT1E/MIT-Project-Jorgan)
@@ -33,7 +33,12 @@ Most people outsource this cumbersome job of storing and managing their data to 
 The goal of project Jorgan is to develop a server that can cover chosen functionalities of Google Cloud infrastructure, assess and compare its cost all while keeping the data at the hands of users. 
 
 ## Resources
-yap yap
+### Financial
+Financial resources amount to 10,000 $. <br>
+70% of those will be used for maintenance and additional improvement on the server hardware. The rest will be used as a salary for the dev team, on a monthly basis for 6 months.
+
+### Personel / Staff
+The personel consists of 2 students in their last year of undegraduate studies (Computer Science degree).
 
 ## Objectives and milestone
 <!-- todo - we gotta have like specific objectives  -->
@@ -43,18 +48,19 @@ https://www.tablesgenerator.com/markdown_tables
  -->
 
 | Goal         | Deadline     |
-| :---         |   :---:   |
+| :---         |   ---:   |
 | Setup Server |    *01.04.2026* |
 | Textual UI   |    *01.05.2026* |
-| Deploy Textual UI | *01.07.2026*|
+| Deploy Textual UI | *15.06.2026*|
 | Graphical UI |    *01.08.2026* |
 | Deploy Graphical UI |    *01.10.2026* |
 
-<!-- what do we put here? -->
+<!-- todo - what do we put here? -->
+>Note: after developing the textual UI, a month and a half is allocated for testing. Similar for GUI time between development and testing.
 
 ## Techniques and Technologies used
-- Agile
-- Web App - express, react
+- Agile methodology
+- Full Stack Web App - using express for back end, and react for front end
 
 ## Description of finished product
 <!-- todo 
