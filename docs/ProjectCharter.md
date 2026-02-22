@@ -7,8 +7,8 @@
 - Alja Eremic (89231124)
 - Filip Trajkoski (89231028)
 
-#### *Deadline: 01.08.2026*
 #### *Date of order: 16.02.2026*
+#### *Deadline: 01.08.2026*
 <!-- #### *Github repository:* -->
 [Github repository](https://github.com/FT1E/MIT-Project-Jorgan)
 
@@ -38,30 +38,23 @@ Financial goal of this project is to maximize set up cost and minimize reocuring
 <!-- todo - we gotta have like specific objectives  -->
 
 1. Select suitable hardware solutions.
+    - deadline: 02.03.2026
 2. Select suitable open source software solutions. 
+    - deadline: 02.03.2026
 3. Server is operational and can be accessed from LAN.
+    - deadline: 09.03.2026
 4. Server is operational and can be accessed from any device from a browser.
+    - deadline: 23.03.2026
 5. Server can be manipulated remotely via SSH-like tool.
+    - deadline: 30.03.2026
 6. Server can be used for storing and viewing images and has a satisfactory UI designated for it.
+    - deadline: 30.04.2026
 7. Server can host up to 3 (low low trafic) websites.
-8. Server should have up time greater then 10h per day.
+    - deadline: 21.05.2026
+8. Server should have up time greater then 18h per day.
 9. Total cost of the project must not exceed 700€.
 10. Server maintenance cost is minimized.
 
-<!-- use this for tables if you want
-https://www.tablesgenerator.com/markdown_tables
- -->
-
-| Goal         | Deadline     |
-| :---         |   ---:   |
-| Setup Server |    *01.04.2026* |
-| Textual UI   |    *01.05.2026* |
-| Deploy Textual UI | *15.06.2026*|
-| Graphical UI |    *01.08.2026* |
-| Deploy Graphical UI |    *01.10.2026* |
-
-<!-- todo - what do we put here? -->
->Note: after developing the textual UI, a month and a half is allocated for testing. Similar for GUI time between development and testing.
 
 ## Techniques and Technologies used
 - Agile methodology
