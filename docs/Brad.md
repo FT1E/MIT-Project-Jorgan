@@ -1,6 +1,9 @@
 **Name:** Brad the Clerk
+
 **Age:** 52
+
 **Occupation/Function:** Retired Clerk**
+
 **Tech level:** 4/10
 
 **Screening question:** 
