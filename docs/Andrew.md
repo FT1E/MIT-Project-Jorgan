@@ -1,6 +1,9 @@
 **Name:** Andrew the photographer  
+
 **Age:** 24  
+
 **Occupation/Function:** Student, Part-time photographer at parties
+
 **Tech level:** 7/10
 
 **Screening question:**
