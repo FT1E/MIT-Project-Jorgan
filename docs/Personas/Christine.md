@@ -18,7 +18,7 @@ There are organizations which offer hosting servers for other people to run, but
 Ignoring the cost, another issue is that most of these organizations don't offer much customizations. They limit to what is run on their servers to specific project setups. Like only hosting web apps made with react. Or hosting servers but only for popular games.
 
 **Other Alternative** <br>
-A possible alternative would be for Christine to buy hardware and set up her own server. But depending on her knowledge and experience, this could take quite a bit of her time, which could've been spent on building personal projects. Also the number of clients using the services hosted on her server, partly depends on how much she has invested in the server hardware. The electricity bills also have to be considered which can be quite high depending on the server's activity.
+A possible alternative would be for Christine to set up a large scale server on her own. This could take quite a bit of her time, which could've been spent on building personal projects. Furthermore building expansive and big server would have grater negative economical implications in the event of project failure. The electricity bills also have to be considered which can be quite high depending on the large server's activity.
 
 **Value proposition** <br>
 What Project Jorgan offers Christine is a cheaper alternative. A virtual environment on a server connected to the internet, which she can use to host any service for whatever kind of personal project she is building at the time. Her virtual environment cannot affect or be affected by the virtual environment of any other customer. She will have the freedom to host whatever service she needs for any kind of personal project.
