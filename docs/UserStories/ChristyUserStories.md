@@ -8,6 +8,7 @@ so that she can learn practical Computer Networking.
 **SSH connection** - Christy is able to safely connect to Project Jorgan through an SSH connection. <br> 
 **UNIX terminal** - Once connected, Christy is able to run any command which can be run on a UNIX/Linux terminal. <br> 
 
+<br>
 
 ### User Story II:
 As a CS student Christy
@@ -17,7 +18,7 @@ wants to host a personally created portfolio website (react/node.js) so that she
 **Back end server hosting** - Christy is able to successfully start a node express back-end server and it continues to be hosted even after Christy disconnects from Project Jorgan. <br> 
 **Front end server hosting** - Christy is able to successfully start a react.js front-end server and it continues to be hosted even after Christy disconnects from Project Jorgan. <br>
 
-
+<br>
 
 
 ### User Story III:
