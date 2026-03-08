@@ -24,7 +24,7 @@ wants to host a personally created portfolio website (react/node.js) so that she
 ### User Story III:
 As a CS student and project enthusiast Christy 
 needs a server 
-so she can host her personally created  Unity multiplayer game.
+so that she can host her personally created  Unity multiplayer game.
 
 #### Acceptance Criteria:
 **Back end server hosting** - Christy is able to successfully start a back-end server for a multiplayer game made in Unity <br>
