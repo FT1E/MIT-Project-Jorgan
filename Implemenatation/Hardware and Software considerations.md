@@ -90,7 +90,7 @@ Only open source software will be used in this project. That being said there ar
 
 ### Quick (dirty) Maths regarding Maintenance
 
-Electrical costs for Raspberry Pi 5 running for a year; at maximal output power charger can provide is 27W = 0.027 KW. For a year of operation this rounds up to 0.027×8760h = 236.52kWh per year. Given the assumed price of 0.25€ per kWh, total maximum price of running this device for a year is 236.52 * 0.25 = 59€. However the actually real cost is much much much lower as we can expect the server to be idle most of the time with some peak loads. At idle Raspberry Pi5 spends around 3W of energy, given normal loads one can average this to around 5W which would mean that the actual cost per year is closer to ~ 10€. <br>
+Electrical costs for Raspberry Pi 5 running for a year; at maximal output power charger can provide is 27W = 0.027 KW. For a year of operation this rounds up to 0.027×8760h = 236.52kWh per year. Given the assumed price of 0.25€ per kWh, total maximum price of running this device for a year is 236.52 * 0.25 = 59€. However the actual real cost is much much much lower as we can expect the server to be idle most of the time with some peak loads. At idle Raspberry Pi 5 spends around 3W of energy, given normal loads one can average this to around 5W which would mean that the actual cost per year is closer to ~ 10€. <br>
 Only additional maintenance cost to this is domain registration which can be assumed to be about 10€ per year (but can be lower given longer periods of registration).<br>
 In total maintenance cost of the server would be around 20€ per year or 1.6€  per month. 
 
