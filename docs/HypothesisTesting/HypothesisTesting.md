@@ -73,8 +73,8 @@ In total is the answer for both of those questions less than 8 euros? (this is i
 ### Answers Question 6
 **P1:** 2/5 - I don't know the online storage market very well. Personally, I would pay 5 euros for website hosting and 4 for 2Tb of memory and 8Gb of RAM per month. <br>
 **P2:** 4/5 - I am a seasoned user of Google Cloud so I know the prices. I would pay up to 10 euros for website hosting and up to 20 euros for 2Tb of memory and 8Gb of RAM per month. <br>
-**P3:** 2/5 - I don't know the online storage market very well. I will be willing to pay 2/3 euro for website hosting and 6/7 euro for server so ~10 in total. <br>
-**P4:** 3/5 - am not very sure of the online storage market. I would pay 3/5 euros and no more than 18/20 euros for for server with given specifications. <br>
+**P3:** 2/5 - I don't know the online storage market very well. I will be willing to pay 2-3 euro for website hosting and 6-7 euro for server so ~10 in total. <br>
+**P4:** 3/5 - am not very sure of the online storage market. I would pay 3-5 euros and no more than 18-20 euros for for server with given specifications. <br>
 **P5:** 4/5 - I am well versed in "Cloud Pricing" as I have just bought a bundle. I would pay no more than 3 euros for server hosting and around 10 euros for the server. <br>
 
 Conclusion - most of the people would be willing to pay for project Jorgan.
