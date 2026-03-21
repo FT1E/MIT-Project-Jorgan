@@ -35,23 +35,38 @@ Task - Navigate to SecretFolder, see the contents of the file inside using the c
 ### Test Findings
 
 **Does anything need to be fixed?** <br>
-- U1:
-- U2:
-- U3:
+- U1: Immich - should have right click functionality to open alt menu of the app instead of browser alt menu.
+- U2: Immich - could have an easier way to access download button. 
+<br>
+VS Code - tab auto-complete is case sensitive. Example 'frontEnd' isn't auto completed with tab when user types 'Fro'
+- U3: 
 
 **Did users face any problems?** <br>
-- U1:
-- U2:
-- U3:
+- U1: Immich - right click functionality not present. User expected an alt menu when right clicking, which was not implemented. And instead got the browser alt menu. <br>
+ Could have an extra button for a quicker way to create an album. Not only in the albums section of the app.
+- U2: Immich - download button shouldn't be in the extra options (3 dots menu). Also needed time to find where to create an album.
+- U3: Immich - download button as well.<br>
+Also took a bit to find create album.
 
-**Time spent on each task** <br>
-- U1:
-- U2:
-- U3:
+<br>
+
+**Time spent on each task** 
+
+Note that the times are rounded to whole integers.
+- U1: 24s - 32s - 27s - 20s
+- U2: 22s - 27s - 22s - 13s
+- U3: 20s - 28s - 21s - 15s
+
+<br>
 
 **Which task was the most intuitive?** <br>
-- U1:
-- U2:
-- U3:
+- U1: Task 2, after finding the album section
+- U2: Task 3 as it's just cd and copy/paste command. 
+- U3: Task 3
+
+<br>
 
 **Extra notes** <br>
+- Noted by the users, some things should be easier and quicker to access in the Immich UI
+- VS Code familiarity - as users have operated VS Code themselves they felt comfortable with it
+- Users felt it was a bit weird working on VS code in the browser, but got used to it quickly during test 3.
