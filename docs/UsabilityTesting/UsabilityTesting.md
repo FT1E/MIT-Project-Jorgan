@@ -37,9 +37,7 @@ Task - Navigate to SecretFolder, see the contents of the file inside using the c
 **Does anything need to be fixed?** <br>
 - U1: Immich - should have right click functionality to open alt menu of the app instead of browser alt menu.
 - U2: Immich - could have an easier way to access download button. 
-<br>
-VS Code - tab auto-complete is case sensitive. Example 'frontEnd' isn't auto completed with tab when user types 'Fro'
-- U3: 
+- U3: VS Code - tab auto-complete is case sensitive. Example 'frontEnd' isn't auto completed with tab when user types 'Fro' 
 
 **Did users face any problems?** <br>
 - U1: Immich - right click functionality not present. User expected an alt menu when right clicking, which was not implemented. And instead got the browser alt menu. <br>
