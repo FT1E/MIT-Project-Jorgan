@@ -29,7 +29,7 @@
  - UI - desired but might not be necessary if using open-source solutions for some of the services
 
  ### Sprint duration
- Each sprint will last 2 weeks. If requested by the dev team, this may be extended up to 4 weeks.
+ Each sprint will last 2 to 4 weeks, depending on the tasks it will cover.
  
  ### Metrics
  Assessing the progress will be done the following. Since our solution mainly focuses on the hardware solution, we will be using functionality and unit testing to test whether a given bullet point in the product backlog is functional. If it passes all the unit tests, it should be considered done. As this project will have no measure for the tasks which are in progress, other than testing smaller sub-functionalities. For example, consider the Image Cloud services, where sub-functionalities could be a successful upload of image and successful download of image.
