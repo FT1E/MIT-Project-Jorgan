@@ -51,6 +51,7 @@
  Task - status (todo, in progress, done)
  
  #### Sprint 1 (16.02 - 02.03)
+ (See here)[https://github.com/FT1E/MIT-Project-Jorgan/blob/main/Implemenatation/Hardware%20and%20Software%20considerations.md]
  - Select suitable hardware - done
  - Select suitable open source software solutions - done
 
