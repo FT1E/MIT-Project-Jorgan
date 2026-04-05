@@ -65,7 +65,7 @@
  **Name** Students <br>
  \- mainly computer science ones, but the services can be used by anyone who would benefit from our provided services.
 
- **Status** Positive
+ **Status** Neutral
 
  **Expectations, interests** <br>
  Their expectation is that they would get our services on the premise that their data is kept private.
@@ -74,5 +74,5 @@
  The benefits are obvious. A possible conflict could arise if some students don't want to pay for the services and would rather use products of other organizations, not minding that their data is being used for training AI or other stuff.
 
  **Team response** <br>
- We believe that the services we offer have a reasonable price, and that it's better to use our services which guarantee the privacy of your data.
+ We believe that the services we offer have a reasonable price, and that it's better to use our services for which we guarantee the privacy of your data.
  
