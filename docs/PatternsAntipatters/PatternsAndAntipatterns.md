@@ -18,7 +18,7 @@ On a two-person team where both members are also the clients, this antipattern t
 
 ### 1. Set Clear Goals
 
-This one is already partially done through the Project Jorgan Charter's milestones, which is a great sign. The pattern is only valuable, however, if the goals remain living checkpoints rather than a document written once and forgotten. For Project Jorgan this means revisiting each milestone at the start of the week it's due — not to add pressure, but to break it into concrete tasks. For example, "Server can be accessed from any device via a browser" (Milestone 4, March 23) should become a short list:
+This one is already partially done through the Project Jorgan Charter's milestones. The pattern is only valuable, however, if the goals remain living checkpoints rather than a document written once and forgotten. For Project Jorgan this means revisiting each milestone at the start of the week it's due — not to add pressure, but to break it into concrete tasks. For example, "Server can be accessed from any device via a browser" (Milestone 4, March 23) should become a short list:
 
 - DNS entry configured
 - HTTPS cert obtained via Cloudflare
