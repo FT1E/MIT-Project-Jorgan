@@ -22,19 +22,19 @@ The project strictly avoided several high-risk management behaviors:
 * **Neglecting Human Factors:**  Given the lack of personnel buffers, the team utilized daily check-ins to monitor burnout and academic stress, treating human resource sustainability as a prerequisite for technical uptime.  
 * **Avoidance of Infantilization:**  Equal technical ownership was maintained to prevent the "hovering manager" syndrome. Technical domains (e.g., networking vs. UI) were respected to maintain high morale and individual accountability.
 
-#### 3\. Comprehensive Stakeholder Analysis
+#### 3\. Stakeholder Analysis
 
-The following matrix analyzes the internal and external stakeholders, identifying potential conflicts and the corresponding mitigation frameworks.
+The following table analyzes a few internal and external stakeholders, identifying potential conflicts and the team's responses to them.
 
-| Stakeholder | Interest/Status | Potential Conflicts | Mitigation Strategy/Team Response |
-| --- | --- | --- | --- |
-|**Dev Team** | **Positive:**  Successful delivery of a private cloud for personal utility and potential commercialization. | Internal resource contention and schedule slippage. | Rigorous adherence to Scrum methodology and biannual project reviews. |
-| **Google LLC** | **Negative:**  Maintenance of proprietary ecosystem lock-in and data-harvesting telemetry. | Disruption of subscription revenue models as users migrate to sovereign solutions. | Fulfillment of user requirements through superior privacy-first architecture. |
-| **Government** | **Neutral:**  Ensuring strict compliance with data privacy regulations and regional laws. | Non-compliance with legal frameworks regarding sovereign data handling. | Deployment of a compliance framework including periodic audits by an external organization. |
-| **Students** | **Positive:**  Access to high-performance, private cloud storage and application hosting. | Price sensitivity regarding premium services or lack of technical literacy. | Implementation of a dual-tier model: a free Basic tier (University-subsidized) and a €5/month Premium tier. |
-| **University** | **Neutral:**  Fulfillment of student infrastructure needs with minimal resource expenditure. | Budgetary constraints regarding resource allocation for student services. | Proposing a contractual partnership where the University subsidizes student access tiers. |
+| Stakeholder | Status | Interest | Potential Conflicts | Mitigation Strategy/Team Response |
+| --- | --- | --- | --- | --- |
+|**Dev Team** | **Positive** |  Successful delivery of a private cloud for personal utility and potential commercialization. | Internal conflicts among team members | Implementation of Scrum methodology. |
+| **Google LLC** | **Negative** |   Both Google and our company offer similar services, competing for the same customers. | Users prefering Google's *'free'* services, not caring about their data being proccessed by AI | Fulfillment of user requirements through architecture, focusing on data control. |
+| **Government** | **Neutral** |  Ensuring strict compliance with data privacy regulations and regional laws. | Non-compliance with legal frameworks regarding sovereign data handling. | Deployment of a compliance framework including periodic audits by an external organization. |
+| **Students** | **Positive** |  Access to high-performance, private cloud storage and application hosting. | Price sensitivity - desire/need for free services. | Implementation of a tiers: a free Basic tier and a €5/month Premium tier. |
+| **University** | **Neutral** |  Fulfillment of student needs with minimal resource expenditure. | Budgetary constraints regarding resource allocation for student services. | Proposing a contractual partnership where the University subsidizes student access tiers. |
 
-#### 4\. User Research and Persona Profiles
+#### 4\. User Stories and Personas
 
 Three persona profiles were synthesized to validate the infrastructure’s versatility across varying technical competencies.
 
