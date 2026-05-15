@@ -141,8 +141,8 @@ Task completion (uploading, navigating, and basic CLI commands) ranged from  **1
 
 ##### Technical Findings and UX Refinements
 
-* **Immich Interface:**  Identified a lack of application-level context menus (right-click defaulting to the browser). Subjects also noted a discovery lag regarding the download function and album creation shortcuts.  
-* **VS Code Server:**  Users noted an  **unconventional UX paradigm**  (initial cognitive dissonance) when operating an IDE within a browser. However, familiarity with the local VS Code environment mitigated this quickly. A technical defect was identified where terminal auto-completion remained case-sensitive (e.g., 'Fro' failing to complete 'frontEnd').
+* **Immich Interface:**  Identified a lack of application-level context menus (right-click defaulting to the browser). Subjects also noted a delay in discovering the download button.  
+* **VS Code Server:** A technical bug was identified where terminal auto-completion remained case-sensitive (e.g., 'Fro' failing to complete 'frontEnd').
 
 #### 10\. Conclusion and Project Outlook
 
