@@ -47,19 +47,19 @@ Three persona profiles were synthesized to validate the infrastructure’s versa
 ##### User Stories and Acceptance Criteria
 
 * **Andrew (Photographer)**  
-* **User Story:**  As a photographer, I want to upload and share my high-resolution assets to preserve storage on my local devices.  
+* **User Story I:**  As a photographer, I want to upload and share my high-resolution assets to preserve storage on my local devices.  
 * **Acceptance Criteria:**  Successful multi-file upload; gallery view confirmation; time-limited sharing link generation.  
-* **User Story:**  As a photographer, I want to host a public portfolio to market my professional services.  
+* **User Story II:**  As a photographer, I want to host a public portfolio to market my professional services.  
 * **Acceptance Criteria:**  24/7 public availability; integrated sales interface; low-latency image rendering.  
 * **Brad (Clerk)**  
-* **User Story:**  As a family archivist, I want to digitize and organize documentation for secure, location-independent access.  
+* **User Story I:**  As a family archivist, I want to digitize and organize documentation for secure, location-independent access.  
 * **Acceptance Criteria:**  Successful PDF/scan upload; intuitive folder hierarchy; storage confirmation notifications.  
-* **User Story:**  As a family archivist, I want to share specific documents with family members for collaborative management.  
+* **User Story II:**  As a family archivist, I want to share specific documents with family members for collaborative management.  
 * **Acceptance Criteria:**  Granular permission control (Viewer vs. Editor); link-based sharing; access revocation capability.  
 * **Christy (Programmer)**  
-* **User Story:**  As a developer, I require a remote Linux environment to practice network configuration and server management.  
+* **User Story I:**  As a developer, I require a remote Linux environment to practice network configuration and server management.  
 * **Acceptance Criteria:**  High-security SSH access; full UNIX terminal capability; environment isolation (virtualization).  
-* **User Story:**  As a developer, I need to host full-stack applications (React/Node.js) and Unity multiplayer backends.  
+* **User Story II:**  As a developer, I need to host full-stack applications (React/Node.js) and Unity multiplayer backends.  
 * **Acceptance Criteria:**  Persistent background process hosting; support for various runtime environments; public DNS routing.
 
 #### 5\. Market Hypothesis and User Validation
@@ -70,23 +70,23 @@ The viability of Project Jorgan was tested through qualitative interviews with f
 * **The Car Metaphor (Ownership vs. Convenience):**  When contrasted between Option A (Renting/Convenience) and Option B (Owning/Sovereignty), 80% of participants selected Option B. This validates a market shift toward ownership, provided the maintenance barrier is sufficiently lowered.  
 * **Financial Feasibility:**  Validation testing indicated a user willingness to pay between €3 and €10 for hosting. With the project's internal ROI model reflecting a monthly saving of €8.40 compared to commercial rates, the financial hypothesis is confirmed as viable.
 
-#### 6\. Technical Specifications: Hardware and Software
+#### 6\. Technical Specifications: Hardware and Software considrations
 
-The system architecture was designed for optimal performance-to-cost ratios and risk mitigation.
+The system architecture was designed to last, prioritizing longevity through while keeping the scale and cost at low.
 
-##### Hardware Architectural Decision Record (ADR)
+##### Hardware Architectural Decisions
 
-While the  **Zima Board**  was considered for its raw power, the  **Raspberry Pi 5**  was selected as the primary compute module due to its superior ecosystem support, documentation, and thermal efficiency.
+While the  **Zima Board**  was considered for its raw power, the  **Raspberry Pi 5**  was eventually selected as the primary compute module due to its superior ecosystem support, documentation, and somewhate better thermal efficiency.
 
 * **Compute:**  Raspberry Pi 5 (8GB LPDDR4X, 2.4GHz Quad-core ARM Cortex-A76).  
-* **Storage Logic:**  Samsung T7 2TB Portable SSD. A USB-C interface was prioritized over PCIe for "salvageability." In the event of project decommissioning, the SSD remains a high-value portable asset, mitigating the risk of the €270 capital expenditure.
+* **Storage Logic:**  Samsung T7 2TB Portable SSD. A USB-C interface was prioritized over PCIe for better "salvageability". In the event of project decommissioning, the SSD remains a high-value portable asset, mitigating the risk of the €270 capital expenditure.
 
 ##### Financial Investment Breakdown
 
 * Raspberry Pi 5 (8GB): €130  
 * Samsung T7 2TB SSD: €270  
 * Supporting Components (32GB OS Boot SSD, EU Power Supply, Active Cooler): €50  
-* **Total Hardware Capital Expenditure (CAPEX): €450**
+* **Total Hardware Cost/Initial Investment**: €450**
 
 ##### Software Stack
 
@@ -98,7 +98,7 @@ The infrastructure utilizes a 100% open-source stack:
 * **VS Code Server:**  Remote browser-based Integrated Development Environment (IDE).  
 * **MariaDB & PhpMyAdmin:**  Relational database management and GUI.
 
-##### Maintenance and ROI Analysis ("Dirty Maths")
+##### Maintenance and ROI Analysis - Quick and Dirty Maths
 
 Operating at a 5W average load, the annual electrical cost is estimated at €10, supplemented by a €10/year domain registration fee.
 
@@ -110,26 +110,26 @@ Operating at a 5W average load, the annual electrical cost is estimated at €10
 
 #### 7\. Design Evolution and Physical Prototyping
 
-The physical enclosure underwent three iterative phases to address spatial residency and thermal management.
+The physical enclosure underwent three iterative phases.
 
-* **Prototype I (Conceptual):**  Initial component orientation in a transparent polymer vessel. This phase identified a critical spatial conflict; a USB-C extender was required to align all interfaces onto a single geometric plane for external access.  
-* **Prototype II (Structural):**  A Fusion360 model printed on a  **Stratasys PolyJet Objet 260 CONNEX 3**  industrial printer. This iteration introduced floor offsets to facilitate passive airflow. However, minor dimension inaccuracies necessitated a transition from theoretical specs to manual caliper measurements.  
-* **Prototype III (Final):**  A precision-engineered print resulting in "spot-on" component residency. This final version incorporates a  **mesh fan cover**  as a dedicated thermal mitigation strategy for 24/7 uptime. The unit is now in permanent residency under the primary workstation, integrated with cable management for power and networking.
+* **Prototype I (Conceptual):**  Initial component orientation in a plastic container. This phase identified a spatial conflict; from this prototype onwards a USB-C extender was required to align all interfaces onto a single geometric plane for easier external access.  
+* **Prototype II (Structural):**  A Fusion360 model printed on a  **Stratasys PolyJet Objet 260 CONNEX 3**  industrial printer. This iteration introduced floor offsets to facilitate passive airflow. However, dimension inaccuracies necessitated a transition from "googled" specs to actual manual caliper measurements.  
+* **Prototype III (Final):**  A so called precision-engineered print resulting in "spot-on" components residency. This final version incorporates a  **mesh fan cover** in order to increase airflow, allowing for 24/7 uptime. The unit is now in permanent residency under the primary workstation, integrated with cable management for power and networking.
 
 #### 8\. Implementation Roadmap and Milestones
 
 The project followed a rigorous timeline, mapping objectives to specific Charter deadlines.
 
-1. **Hardware Procurement & Benchmarking:**  Completed February 2026\.  
+1. **Hardware Selection, Sourcing & Benchmarking:**  Completed February 2026\.  
 2. **Software Stack Selection:**  Completed March 2, 2026\.  
 3. **LAN Operationality:**  Completed March 9, 2026\.  
 4. **Global Browser Accessibility:**  Completed March 23, 2026\.  
-5. **Secure SSH Remote Manipulation:**  Completed March 30, 2026\.  
+5. **Secure SSH Remote Manipulation:**  Completed March 23, 2026\.   
 6. **Cloud Image Services (Immich) Deployment:**  Completed April 30, 2026\.  
-7. **Multi-Site Web Hosting (up to 3 sites):**  Deadline May 21, 2026\.  
-8. **Uptime Optimization (\>18h/day):**  Ongoing.  
+7. **Multi-Site Web Hosting (up to 3 sites):**  Completed May 20, 2026\.  
+8. **Uptime Optimization:**  Ongoing.  
 9. **Budgetary Discipline (Cap at €700):**  Achieved (Total €450).  
-10. **Maintenance Minimization:**  Achieved (€1.60/month).*Note: Following Usability Testing, a new*  ***Sprint 7***  *has been added for June 2026 to address UI refinement and terminal case-sensitivity patches.*
+10. **Maintenance Minimization:**  Achieved (€1.60/month). 
 
 #### 9\. Usability Testing and Quality Assurance
 
