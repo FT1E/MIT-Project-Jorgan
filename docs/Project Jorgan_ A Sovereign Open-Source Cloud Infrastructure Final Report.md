@@ -2,24 +2,24 @@
 
 #### 1\. Project Definition and Mission Overview
 
-Project Jorgan represents a strategic architectural transition from proprietary cloud dependencies to a sovereign, open-source personal server infrastructure. The mission is to establish a viable alternative to the Google Cloud ecosystem—specifically Google Photos, Google Docs, and hosting services—by deploying a localized, high-availability hardware stack.The primary objective is to facilitate remote data access and manipulation while ensuring the user retains absolute data sovereignty. By abstracting the latency and complexities of remote infrastructure, Project Jorgan provides a seamless user experience that rivals commercial providers without the associated privacy compromises or recurring subscription fees for storage exceeding 10GB. This project asserts that data ownership is a technical right, achieved through the rigorous implementation of open-source protocols on dedicated hardware.
+Project Jorgan represents a strategic architectural transition from cloud dependencies to a sovereign, open-source personal server infrastructure. The mission is to establish a viable alternative to the Google Cloud ecosystem—specifically Google Photos, Google Docs, and hosting services—by deploying a localized, high-availability hardware stack.The primary objective is to facilitate remote data access and manipulation while ensuring the user retains absolute data sovereignty. By abstracting the latency and complexities of remote infrastructure, Project Jorgan provides a seamless user experience that rivals commercial providers without the associated privacy compromises or recurring subscription fees for storage exceeding 10GB. This project asserts that data ownership is a technical right, achieved through the rigorous implementation of open-source protocols on dedicated hardware.
 
 #### 2\. Project Management Strategy: Agile and Methodology
 
-The deployment was governed by an Agile/Scrum framework, optimized for a two-person development team consisting of Alja Eremic and Filip Trajkoski. Development cycles were structured into iterative sprints of two to four weeks, allowing for rapid prototyping and the continuous integration of sub-functionalities.
+The deployment was governed by an Agile/Scrum framework, optimized for a two-person development team. Development cycles were structured into iterative sprints of two to four weeks, allowing for rapid prototyping and the continuous integration of sub-functionalities.
 
 ##### Positive Patterns and Strategic Catalysis
 
 To maximize the productivity of a lean team, two core patterns were adopted:
 
-* **Granular Goal Setting:**  High-level milestones from the Project Charter were decomposed into concrete technical tasks (e.g., DNS record configuration and SSL certificate acquisition via Cloudflare) to eliminate architectural drift.  
-* **Catalytic Problem Solving:**  A "zero-blocker" policy was enforced. If a team member remained stalled on a technical impediment (such as MariaDB permission conflicts) for over two hours, a collaborative debugging session was initiated. This prevented the 50% productivity loss inherent in single-point-of-failure stalls within two-person teams.
+* **Subgoals Setting:**  High-level milestones from the Project Charter were decomposed into concrete technical tasks (e.g., DNS record configuration and SSL certificate acquisition via Cloudflare) to eliminate architectural drift.  
+* **Problem Solving:**  A "zero-blocker" policy was enforced. If a team member remained stalled on a technical impediment (such as MariaDB permission conflicts) for over two hours, a collaborative debugging session was initiated. This prevented the 50% productivity loss inherent in single-point-of-failure stalls within two-person teams.
 
 ##### Mitigation of Management Antipatterns
 
 The project strictly avoided several high-risk management behaviors:
 
-* **Neglecting Human Factors:**  Given the lack of personnel buffers, the team utilized daily check-ins to monitor burnout and academic stress, treating human resource sustainability as a prerequisite for technical uptime.  
+* **Neglecting Human Factors:**  Given the small size of team, daily check-ins were used to monitor burnout and academic stress.  
 * **Avoidance of Infantilization:**  Equal technical ownership was maintained to prevent the "hovering manager" syndrome. Technical domains (e.g., networking vs. UI) were respected to maintain high morale and individual accountability.
 
 #### 3\. Stakeholder Analysis
@@ -36,7 +36,7 @@ The following table analyzes a few internal and external stakeholders, identifyi
 
 #### 4\. User Stories and Personas
 
-Three persona profiles were synthesized to validate the infrastructure’s versatility across varying technical competencies.
+Three persona profiles were synthesized to validate the projects versatility across varying technical competencies, as well as user needs.
 
 ##### Persona Summaries
 
@@ -128,8 +128,8 @@ The project followed a rigorous timeline, mapping objectives to specific Charter
 6. **Cloud Image Services (Immich) Deployment:**  Completed April 30, 2026\.  
 7. **Multi-Site Web Hosting (up to 3 sites):**  Completed May 20, 2026\.  
 8. **Uptime Optimization:**  Ongoing.  
-9. **Budgetary Discipline (Cap at €700):**  Achieved (Total €450).  
-10. **Maintenance Minimization:**  Achieved (€1.60/month). 
+9. **Budget (Caped at €700):**  Achieved (Total €450).  
+10. **Maintenance Minimization:**  Achieved (€1.60/month) after paid of initial investment. 
 
 #### 9\. Usability Testing and Quality Assurance
 
