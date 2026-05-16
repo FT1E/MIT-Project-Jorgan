@@ -1,4 +1,4 @@
-### Project Jorgan: A Sovereign Open-Source Cloud Infrastructure Final Report
+### Project Jorgan: Final Report
 
 #### 1\. Project Definition and Mission Overview
 
@@ -112,7 +112,9 @@ Operating at a 5W average load, the annual electrical cost is estimated at €10
 
 The physical enclosure underwent three iterative phases.
 
-* **Prototype I (Conceptual):**  Initial component orientation in a plastic container. This phase identified a spatial conflict; from this prototype onwards a USB-C extender was required to align all interfaces onto a single geometric plane for easier external access.  
+* **Prototype I (Conceptual):**  Initial component orientation in a plastic container. This phase identified a spatial conflict; from this prototype onwards a USB-C extender was required to align all interfaces onto a single geometric plane for easier external access.
+![Prototype1_1](/Implemenatation/Prototypes/images/Prototype1_1.jpg)
+
 * **Prototype II (Structural):**  A Fusion360 model printed on a  **Stratasys PolyJet Objet 260 CONNEX 3**  industrial printer. This iteration introduced floor offsets to facilitate passive airflow. However, dimension inaccuracies necessitated a transition from "googled" specs to actual manual caliper measurements.  
 * **Prototype III (Final):**  A so called precision-engineered print resulting in "spot-on" components residency. This final version incorporates a  **mesh fan cover** in order to increase airflow, allowing for 24/7 uptime. The unit is now in permanent residency under the primary workstation, integrated with cable management for power and networking.
 
