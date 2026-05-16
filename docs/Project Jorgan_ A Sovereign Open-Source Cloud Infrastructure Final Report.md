@@ -129,6 +129,16 @@ The physical enclosure underwent three iterative phases.
 ![Prototype3_4](/Implemenatation/Prototypes/images/Prototype3_4.jpg)
 
 #### 8\. Implementation Roadmap and Milestones
+The software implementation involved deploying a suite of containerized applications through the CasaOS orchestration layer to provide a comprehensive personal cloud experience.
+Centralized Administration (CasaOS): The "home" interface was implemented to allow unified access to files, system metrics, and the SSH terminal.
+
+Media Hosting (Immich): A high-performance media server was deployed to handle image storage and browsing, offering features comparable to proprietary photo clouds.
+
+Development and Hosting Services: The prototype includes a remote VS Code instance for on-server development and MariaDB with phpMyAdmin for database management, enabling the hosting of up to 5 low-traffic websites.
+
+Networking Architecture: Global access was achieved using Cloudflare to manage DNS and tunnels, abstracting complex networking hurdles for the user. 
+
+#### 9\. Implementation Roadmap and Milestones
 
 The project followed a rigorous timeline, mapping objectives to specific Charter deadlines.
 
@@ -143,7 +153,7 @@ The project followed a rigorous timeline, mapping objectives to specific Charter
 9. **Budget (Caped at €700):**  Achieved (Total €450).  
 10. **Maintenance Minimization:**  Achieved (€1.60/month) after paid of initial investment. 
 
-#### 9\. Usability Testing and Quality Assurance
+#### 10\. Usability Testing and Quality Assurance
 
 Quantitative performance metrics and qualitative feedback were gathered from three test subjects focusing on the Immich and VS Code interfaces.
 
@@ -156,6 +166,6 @@ Task completion (uploading, navigating, and basic CLI commands) ranged from  **1
 * **Immich Interface:**  Identified a lack of application-level context menus (right-click defaulting to the browser). Subjects also noted a delay in discovering the download button.  
 * **VS Code Server:** A technical bug was identified where terminal auto-completion remained case-sensitive (e.g., 'Fro' failing to complete 'frontEnd').
 
-#### 10\. Conclusion and Project Outlook
+#### 11\. Conclusion and Project Outlook
 
 Project Jorgan successfully demonstrates that a sovereign open-source cloud can effectively rival the functionality of Google Cloud while maintaining superior budgetary discipline. By utilizing only  **€450 of the €700 allocated budget** , the project achieved its technical objectives with a 35% capital surplus.The project validates the "car ownership" metaphor; users are willing to accept the responsibilities of maintenance in exchange for the monthly €8.40 saving and the security of absolute data sovereignty. With a maintenance cost of just €1.60 per month and a robust thermal design for long-term residency, Project Jorgan stands as a blueprint for the future of decentralized personal infrastructure.  
