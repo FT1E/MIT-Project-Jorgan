@@ -111,12 +111,22 @@ Operating at a 5W average load, the annual electrical cost is estimated at €10
 #### 7\. Design Evolution and Physical Prototyping
 
 The physical enclosure underwent three iterative phases.
+![All_prototypes](/Implemenatation/Prototypes/images/All_prototypes.jpg)
 
 * **Prototype I (Conceptual):**  Initial component orientation in a plastic container. This phase identified a spatial conflict; from this prototype onwards a USB-C extender was required to align all interfaces onto a single geometric plane for easier external access.
 ![Prototype1_1](/Implemenatation/Prototypes/images/Prototype1_1.jpg)
 
-* **Prototype II (Structural):**  A Fusion360 model printed on a  **Stratasys PolyJet Objet 260 CONNEX 3**  industrial printer. This iteration introduced floor offsets to facilitate passive airflow. However, dimension inaccuracies necessitated a transition from "googled" specs to actual manual caliper measurements.  
-* **Prototype III (Final):**  A so called precision-engineered print resulting in "spot-on" components residency. This final version incorporates a  **mesh fan cover** in order to increase airflow, allowing for 24/7 uptime. The unit is now in permanent residency under the primary workstation, integrated with cable management for power and networking.
+* **Prototype II (Structural):**  A Fusion360 model printed on a  **Stratasys PolyJet Objet 260 CONNEX 3**  industrial printer. This iteration introduced floor offsets to facilitate passive airflow. However, dimension inaccuracies (shown on third picture) forced the development to transition from "googled" specs to actual manual caliper measurements.
+![Prototype2_1](/Implemenatation/Prototypes/images/Prototype2_1.jpg)
+![Prototype2_2](/Implemenatation/Prototypes/images/Prototype2_2.jpg)
+![Prototype2_3](/Implemenatation/Prototypes/images/Prototype2_3.jpg)
+
+* **Prototype III (Final):**  A so called "precision-engineered" print resulting in spot-on components residency. This final version incorporates a  **mesh fan cover** (not shown in the pictures) in order to increase airflow while reducing dust collection, allowing for 24/7 uptime. The unit is now in permanent residency under the primary workstation, integrated with cable management for power and networking.
+
+![Prototype3_1](/Implemenatation/Prototypes/images/Prototype3_1.jpg)
+![Prototype3_2](/Implemenatation/Prototypes/images/Prototype3_2.jpg)
+![Prototype3_3](/Implemenatation/Prototypes/images/Prototype3_3.jpg)
+![Prototype3_4](/Implemenatation/Prototypes/images/Prototype3_4.jpg)
 
 #### 8\. Implementation Roadmap and Milestones
 
