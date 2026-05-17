@@ -137,7 +137,7 @@ Centralized Administration (CasaOS): The "home" interface was implemented to all
 Media Hosting (Immich): A high-performance media server was deployed to handle image storage and browsing, offering features comparable to proprietary photo clouds. [image]
 ![Immich](/Implemenatation/Prototypes/images/Immich.png)
 Development and Hosting Services: The prototype includes a remote VS Code instance for on-server development and MariaDB for database management, enabling the hosting of up to three low-traffic websites. [image]
-![VsCode](/Implemenatation/Prototypes/images/Vscode.jpg)
+![VsCode](/Implemenatation/Prototypes/images/Vscode.png)
 ![PhpMyAdmin](/Implemenatation/Prototypes/images/PhpMyAdmin.png)
 Networking Architecture: Global access was achieved using Cloudflare to manage DNS and tunnels, abstracting complex networking hurdles for the user.
 
