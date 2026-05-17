@@ -128,7 +128,16 @@ The physical enclosure underwent three iterative phases.
 ![Prototype3_3](/Implemenatation/Prototypes/images/Prototype3_3.jpg)
 ![Prototype3_4](/Implemenatation/Prototypes/images/Prototype3_4.jpg)
 
-#### 8\. Implementation Roadmap and Milestones
+#### 8\. SOFTWARE PROTOTYPES IMPLEMENTATION
+The software implementation involved deploying a suite of containerized applications through the CasaOS orchestration layer to provide a comprehensive personal cloud experience.
+Centralized Administration (CasaOS): The "home" interface was implemented to allow unified access to files, system metrics, and the SSH terminal. [image]
+Media Hosting (Immich): A high-performance media server was deployed to handle image storage and browsing, offering features comparable to proprietary photo clouds. [image]
+Development and Hosting Services: The prototype includes a remote VS Code instance for on-server development and MariaDB for database management, enabling the hosting of up to three low-traffic websites. [image]
+Networking Architecture: Global access was achieved using Cloudflare to manage DNS and tunnels, abstracting complex networking hurdles for the user. [image]
+
+
+
+#### 9\. Implementation Roadmap and Milestones
 The software implementation involved deploying a suite of containerized applications through the CasaOS orchestration layer to provide a comprehensive personal cloud experience.
 Centralized Administration (CasaOS): The "home" interface was implemented to allow unified access to files, system metrics, and the SSH terminal.
 
@@ -138,7 +147,7 @@ Development and Hosting Services: The prototype includes a remote VS Code instan
 
 Networking Architecture: Global access was achieved using Cloudflare to manage DNS and tunnels, abstracting complex networking hurdles for the user. 
 
-#### 9\. Implementation Roadmap and Milestones
+#### 10\. Implementation Roadmap and Milestones
 
 The project followed a rigorous timeline, mapping objectives to specific Charter deadlines.
 
@@ -153,7 +162,7 @@ The project followed a rigorous timeline, mapping objectives to specific Charter
 9. **Budget (Caped at €700):**  Achieved (Total €450).  
 10. **Maintenance Minimization:**  Achieved (€1.60/month) after paid of initial investment. 
 
-#### 10\. Usability Testing and Quality Assurance
+#### 11\. Usability Testing and Quality Assurance
 
 Quantitative performance metrics and qualitative feedback were gathered from three test subjects focusing on the Immich and VS Code interfaces.
 
