@@ -46,17 +46,19 @@ Three persona profiles were synthesized to validate the projects versatility acr
 
 ##### User Stories and Acceptance Criteria
 
-* **Andrew (Photographer)**  
+**Andrew (Photographer)**  
 * **User Story I:**  As a photographer, I want to upload and share my high-resolution assets to preserve storage on my local devices.  
 * **Acceptance Criteria:**  Successful multi-file upload; gallery view confirmation; time-limited sharing link generation.  
 * **User Story II:**  As a photographer, I want to host a public portfolio to market my professional services.  
 * **Acceptance Criteria:**  24/7 public availability; integrated sales interface; low-latency image rendering.  
-* **Brad (Clerk)**  
+
+**Brad (Clerk)**  
 * **User Story I:**  As a family archivist, I want to digitize and organize documentation for secure, location-independent access.  
 * **Acceptance Criteria:**  Successful PDF/scan upload; intuitive folder hierarchy; storage confirmation notifications.  
 * **User Story II:**  As a family archivist, I want to share specific documents with family members for collaborative management.  
 * **Acceptance Criteria:**  Granular permission control (Viewer vs. Editor); link-based sharing; access revocation capability.  
-* **Christy (Programmer)**  
+
+**Christy (Programmer)**  
 * **User Story I:**  As a developer, I require a remote Linux environment to practice network configuration and server management.  
 * **Acceptance Criteria:**  High-security SSH access; full UNIX terminal capability; environment isolation (virtualization).  
 * **User Story II:**  As a developer, I need to host full-stack applications (React/Node.js) and Unity multiplayer backends.  
