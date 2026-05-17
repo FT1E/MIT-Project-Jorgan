@@ -130,10 +130,16 @@ The physical enclosure underwent three iterative phases.
 
 #### 8\. SOFTWARE PROTOTYPES IMPLEMENTATION
 The software implementation involved deploying a suite of containerized applications through the CasaOS orchestration layer to provide a comprehensive personal cloud experience.
-Centralized Administration (CasaOS): The "home" interface was implemented to allow unified access to files, system metrics, and the SSH terminal. [image]
+Centralized Administration (CasaOS): The "home" interface was implemented to allow unified access to files, system metrics, and the SSH terminal. 
+![CasaOs_Home](/Implemenatation/Prototypes/images/CasaOS.png)
+![CasaOs_Files](/Implemenatation/Prototypes/images/Files.png)
+![CasaOs_SSH](/Implemenatation/Prototypes/images/SSH.png)
 Media Hosting (Immich): A high-performance media server was deployed to handle image storage and browsing, offering features comparable to proprietary photo clouds. [image]
+![Immich](/Implemenatation/Prototypes/images/Immich.png)
 Development and Hosting Services: The prototype includes a remote VS Code instance for on-server development and MariaDB for database management, enabling the hosting of up to three low-traffic websites. [image]
-Networking Architecture: Global access was achieved using Cloudflare to manage DNS and tunnels, abstracting complex networking hurdles for the user. [image]
+![VsCode](/Implemenatation/Prototypes/images/Vscode.jpg)
+![PhpMyAdmin](/Implemenatation/Prototypes/images/PhpMyAdmin.png)
+Networking Architecture: Global access was achieved using Cloudflare to manage DNS and tunnels, abstracting complex networking hurdles for the user.
 
 
 
