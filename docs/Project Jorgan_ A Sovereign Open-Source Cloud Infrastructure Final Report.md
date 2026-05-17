@@ -176,7 +176,7 @@ Quantitative performance metrics and qualitative feedback were gathered from thr
 
 ##### Quantitative Metrics
 
-Task completion (uploading, navigating, and basic CLI commands) ranged from  **13 to 32 seconds** , confirming a low barrier to entry for non-technical personas like "Brad."
+Task completion (uploading, navigating, and basic CLI commands) ranged from  **13 to 32 seconds**.
 
 ##### Technical Findings and UX Refinements
 
